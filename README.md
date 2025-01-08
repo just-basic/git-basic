@@ -16,3 +16,14 @@ Instruction [Documentation](https://docs.github.com/en/get-started/writing-on-gi
 ``git remote add origin /rep link/``<br />
 ``git branch -M main``<br />
 ``git push -u origin main``<br />
+
+
+ ### To check current credentials:
+git config --global user.name  
+git config --global user.email
+### To set global level credentials:
+git config --global user.name <name>  
+git config --global user.email <your-email>
+### To set repo level credentials:
+git config user.name <name>  
+git config user.email <your-email>
