@@ -19,11 +19,17 @@ Instruction [Documentation](https://docs.github.com/en/get-started/writing-on-gi
 
 
  ### To check current credentials:
+```
 git config --global user.name  
 git config --global user.email
+```
 ### To set global level credentials:
+```
 git config --global user.name <name>  
 git config --global user.email <your-email>
+```
 ### To set repo level credentials:
+```
 git config user.name <name>  
 git config user.email <your-email>
+```
